@@ -4,7 +4,7 @@
 - installed python3
 
 ## Installation
-- Clone this repo as git clone `https://github.com/Viceriel/Log-analyser.git`
+- Clone this repo as git clone `https://github.com/Viceriel/Neural-networks-basics.git`
 - Install depedencies from cmd as `pip install -r requirements.txt`
 
 ## Run
