@@ -40,4 +40,6 @@ def xor_problem_evaulation(neurons=2, epochs=30000, batch=1):
 def xor_problem_board(neurons=2, epochs=30000, batch=1):
     model= model_creation(neurons)
     tensorboard = TensorBoard(log_dir="logs/{}".format(time()), write_graph=True)
-    model.fit(x, y, epochs=epochs, batch_size=batch, verbose=0, callbacks=[tensorboard])
+    model.fit(x, y, epochs=epochs, batch_size=batch, verbose=1, callbacks=[tensorboard])
+    print(model.predict(x))
+    print(model.summary())
